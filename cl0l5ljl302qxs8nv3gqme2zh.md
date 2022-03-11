@@ -8,11 +8,13 @@ Cool! Let's see what is this actually.
 
 ***Blockchain*** is literally a chain of blocks(nodes), with each block containing some data and interlinked with each other. That data can be some values like *transaction reference no*, *transaction id* or we can say any information that can be stored publicly. That means Blockchain is a public(*decentralized*) database. 
 
-*Harvard Business Review* defines blockchain as "An open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way." It is also called a "Peer-to-Peer" network, which means any new transaction added into Blockchain will be accessible to all the peers who are in that network. 
+*Harvard Business Review* defines blockchain as "An open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way." It is also called a "Peer-to-Peer" network, which means any new transaction added into a Blockchain network, will be accessible to all the peers who are in that network. 
 
-If all peers can access the data, then why it's so popular? Curious right? 
+If all peers can access the data, then anyone can tamper with it, right? Still, why it's so popular? Curious right? 
 
-Because Blockchain is *immutable*. This means once new data is added into the blocks, no one can't delete or modify it. Wait, but how it is possible? 
+Let's see why. 
+
+Because Blockchain is *immutable*. This means once new data is added into the block(node), no one can delete or modify it. Wait, but how it is possible? 
 
 Let's imagine, there are 5 nodes available in a blockchain network, and all are *interlinked *with each other.  
 
@@ -39,7 +41,7 @@ This is a basic idea of what Blockchain is. I hope you find it informative.
 Thank you for reading this. Give a heart if you love this content. See you with a new blog!
 
 ```
-Happy Coding
+Happy Coding!
 ```
 
 
