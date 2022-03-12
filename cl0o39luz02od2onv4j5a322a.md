@@ -39,7 +39,7 @@ In this picture, you can say the **server **is amazon and the **client **is you,
 
 - It makes use of the Hub and Spoke(star) network model(used in the picture).
 
-Now, we reached the end of what is *centralized application* is. I'm pretty sure, you are now clearly understood about the *centralized application*. 
+Now, we reached the end of what a *centralized application* is. I'm pretty sure, you are now clearly understood about the *centralized application*. 
 
 Thanks for reading this out. Give a heart if you love this article. 
 
