@@ -24,7 +24,7 @@ In simple words, It's an *application * which is managed by a company or an orga
 
 You purchased an iPhone from *Amazon*, right? Let's take this to explore more. 
 
-When you are going to open an account on *amazon*, you are giving personal details to it, like *name, email. mob etc*. Your details are stored inside *amazon's *database. Here, *amazon *can view your data, can view your order history, also *amazon *can modify it(likely they are not). *Amazon *has full access to your data. So, here *amazon *acts as a *Centralized Application*. 
+When you are going to open an account on *amazon*, you are giving personal details to it, like *name, email, mob etc*. Your details are stored inside *amazon's *database. Here, *amazon *can view your data, can view your order history, also *amazon *can modify it(likely they are not). *Amazon *has full access to your data. So, here *amazon *acts as a *Centralized Application*. 
 
 Like this, let's take another application. For eg, when you are making a train ticket booking from the IRCTC application, you are giving IRCTC to your personal data(*name, mob, journey details, etc*). IRCTC has full access to your data. So, here IRCTC acts as a *centralized application*. 
 
