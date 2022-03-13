@@ -6,7 +6,7 @@ First, let's talk about what is an *application*.
 
 An *application *is a computer program with an interface, enabling people to use the computer as a tool to accomplish a specific task. That means, a tool that fulfills our needs through the internet. That's it. 
 
-For eg, if you want to buy a mobile from an online store, then you must need a platform to purchase it. This may be from your mobile or computer. Right? That platform is called an *Application*. Suppose, if you want to buy an iPhone 13 online, let's say from *amazon*, here, *amazon *is the *platform *that you are using for making the purchase. So, *amazon *is the *application*. 
+For eg, if you want to buy a mobile from an online store, then you must need a platform to purchase it. This may be from your mobile or computer. Right? That platform is called an *Application*. Suppose, if you want to buy an iPhone 13 online, then you need to first find a platform who offers online purchases. Let's say from *amazon*, here, *amazon *is the *platform *that you are using for making the purchase. So, *amazon *is the *application*. 
 
 Got an idea of what an application is? 
 
