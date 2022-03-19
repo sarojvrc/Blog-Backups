@@ -6,7 +6,7 @@
 
 **L**et's see first, what *Blockchain *is! and then we will discuss how it works.
 
-*Blockchain *is a chain of data blocks stored in hundred or thousands or even millions of computers (servers) distributed over a wide geographical area. It is a complete ledger that maintains a copy of all the credit/debit transactions of digital assets. It is based on decentralized technologies. 
+*Blockchain *is a chain of data blocks stored in hundred or thousands or even millions of computers (servers) distributed over a wide geographical area. It is a complete ledger that maintains a copy of all the credit/debit(*not in all cases*) transactions of digital assets. It is based on decentralized technologies. 
 
 Eg. Bitcoin is a great example of a *blockchain *application or we can say it works on decentralized principle. That means when a new Node(server) is added to the bitcoin network, it is impossible to modify or delete that node. It works on a Peer-to-Peer(P2P) network, where each Peer acts as a server. 
 
