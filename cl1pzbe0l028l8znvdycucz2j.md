@@ -27,10 +27,10 @@ As you can see in the above image, there are 4 types of blockchain is available.
 
 They are 
 
-1. Permissioned Blockchain
-2. Private Blockchain
-3. Federated/Consortium Blockchain
-4. Public Blockchain
+1. **Permissioned Blockchain**
+2. **Private Blockchain**
+3. **Federated/Consortium Blockchain**
+4. **Public Blockchain**
 
 Let's see them one by one. 
 
