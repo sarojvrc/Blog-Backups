@@ -19,7 +19,7 @@ The digital keys are not actually stored in the network but are instead created 
 
 ### Private Key 
 
-A private key is simply a number, picked at random. Ownership and control over the private key is the root of user control over all funds associated with the corresponding bitcoin address. The private key is used to create signatures that are required to spend bitcoin y providing ownership of funds used in a transaction. The private key must remain secret at all times because revealing it to third parties is the same as giving them control over the bitcoins secured by that key. 
+A private key is simply a number, picked at random. Ownership and control over the private key is the root of user control over all funds associated with the corresponding bitcoin address. The private key is used to create signatures that are required to spend bitcoin you providing ownership of funds used in a transaction. The private key must remain secret at all times because revealing it to third parties is the same as giving them control over the bitcoins secured by that key. 
 
 
 ![private key.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1651401579338/TsSGxkVcN.jpg align="left")
