@@ -24,7 +24,7 @@ Node v16.13.0
 Web3.js v1.5.3
 ``` 
 
-**Yep! we have successfully installed the truffle and ganache. Now let's setup the truffle project.** 
+**Yep! we have successfully installed the truffle and ganache. Now let's set up the truffle project.** 
 
 ## Create a Truffle Project
 
@@ -46,23 +46,23 @@ As well as you can see it also created some folders inside our vs code.
 
 ![3_truffle project folder (2).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663049145632/YfiWswve_.png align="left")
 
-There is a total of 3 folders named *contracts, migrations, and test*. As you can guess, you have to write all our smart contracts inside the *contracts* folder, and while deploying the migrated contracts will automatically come inside the *migrate *folder. Like this, for testing our contracts we can use the *test* folder. Also there is a *truffle-config.json* file we can see. In this file we have to modify depending on our deployment requirements. We will see all details in this article. 
+There is a total of 3 folders named *contracts, migrations, and test*. As you can guess, you have to write all our smart contracts inside the *contracts* folder, and while deploying the migrated contracts will automatically come inside the *migrate *folder. Like this, for testing our contracts we can use the *test* folder. Also, there is a *truffle-config.json* file we can see. In this file, we have to modify depending on our deployment requirements. We will see all details in this article. 
 
 ### Ganache 
 
-Before deploying the smart contract lets have a look in out Ganache GUI. Open your installed Ganache and start the *Ethereum Quickstart*. Once it is launched successfully you can see a homescreen like below. 
+Before deploying the smart contract let's have a look at our Ganache GUI. Open your installed Ganache and start the *Ethereum Quickstart*. Once it is launched successfully you can see a home screen like below. 
 
 ![4_ganache homepage.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663050099319/ADH8b7VtZ.png align="left")
 
-I hope you followed my previous article where we deployed a smart contract using Remix IDE, if not follow this [link](https://medium.com/coinmonks/complete-solidity-code-deployment-process-f88be7913990). We saw how Remix IDE provided us some addresses, like this Ganache also provided us some test ethereum addresses with containing 100 ether each. This ether have no real value, this is only for the testing purpose. Also if you see in the *Blocks* tab, we can see there is only Block-0 is available. 
+I hope you followed my previous article where we deployed a smart contract using Remix IDE, if not follow this [link](https://medium.com/coinmonks/complete-solidity-code-deployment-process-f88be7913990). We saw how Remix IDE provided us some addresses, like this Ganache also provided us some test Ethereum addresses with containing 100 ether each. This ether has no real value, this is only for testing purposes. Also if you see in the *Blocks* tab, we can see there is only Block-0 is available. 
 
 ![5_ganache block 0.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663050616204/pZewwXaoo.png align="left")
 
-Once we deployed our smart contract, then only we can see the new blocks. We can explore remaining tabs in the Ganache GUI. Now, let's deploy the smart contract. 
+Once we deployed our smart contract, then only we can see the new blocks. We can explore the remaining tabs in the Ganache GUI. Now, let's deploy the smart contract. 
 
 ### Deploying the Smart Contract
 
-As you can see we have a folder called contracts, and in this folder a smart contract is available before. 
+As you can see we have a folder called contracts, and in this folder, a smart contract is available before. 
 
 ```
 // SPDX-License-Identifier: MIT
@@ -87,7 +87,7 @@ contract Migrations {
 
 ``` 
 
-Hold On! Before deploying we have to modify the truffle-config.js file as we are using Ganache GUI. And you can see in the Ganache the server is 7545. Lets modify the file. Uncomment the development code and make changes as below. 
+Hold On! Before deploying we have to modify the truffle-config.js file as we are using Ganache GUI. As you can see in the Ganache the server is 7545. Let's modify the file. Uncomment the development code and make changes as below. 
 
 ```
 development: {
@@ -105,7 +105,7 @@ Now, open the terminal inside the vs code and run the following command.
 truffle migrate
 ``` 
 
-If all goes well, you can see the following output as below. 
+If all goes well, you can see the following output below. 
 
 ```
 Compiling your contracts...
@@ -149,7 +149,7 @@ Summary
 > Final cost:          0.00497684 ETH
 ``` 
 
-Now if you noticed you will see, a new file is created inside the *migrations* folder named as *1_initial_migration.js*.  1 is used for the serialization of the deployment process, means it will deploy first. 
+Now if you noticed you will see, that a new file is created inside the *migrations* folder named *1_initial_migration.js*.  1 is used for the serialization of the deployment process, which means it will deploy first. 
 
 ```
 const Migrations = artifacts.require("Migrations");
@@ -160,23 +160,23 @@ module.exports = function (deployer) {
 
 ``` 
 
-Also we can see in the output our smart contract is deployed and we can see all these details in the Ganache GUI also. You can see the address 0x8FA deducted some ethers. 
+Also, we can see in the output our smart contract is deployed and we can see all these details in the Ganache GUI also. You can see the address 0x8FA deducted some ethers. 
 
 ![6_ganache balance.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663051259083/_jMBdhWnw.png align="left")
 
-Now, if you check in the Blocks Tab, new block will be added. 
+Now, if you check in the Blocks Tab, a new block will be added. 
 
 ![7_ganache.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663051536451/ykqWHgSbA.png align="left")
 
-Here we can see our transactions details. 
+Here we can see the details of our transaction. 
 
 ![8_ganache.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663051548287/PmHQT_szs.png align="left")
 
-If you click one of the transaction, you can see all details for that transaction as below. 
+If you click one of the transactions, you can see all details for that transaction below. 
 
 ![9_ganache.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663051645844/oTMHTtT2O.png align="left")
 
 Here we can see the SENDER ADDRESS, CREATED CONTRACT ADDRESS, VALUE, GAS USED, GAS PRICE, GAS LIMIT, MINED IN BLOCK, and TX DATA. We have successfully deployed our smart contract with the help of truffle and ganache. Try it with yourself, I am sure you will enjoy it. 
 
-Thanks for reading this article, see yu soon with a new topic. 
+Thanks for reading this article, see you soon with a new topic. 
 
