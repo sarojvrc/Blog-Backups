@@ -46,7 +46,7 @@ As well as you can see it also created some folders inside our vs code.
 
 ![3_truffle project folder (2).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663049145632/YfiWswve_.png align="left")
 
-There is a total of 3 folders named *contracts, migrations, and test*. As you can guess, you have to write all our smart contracts inside the *contracts* folder, and while deploying the migrated contracts will automatically come inside the *migrate *folder. Like this, for testing our contracts we can use the *test* folder. Also, there is a *truffle-config.json* file we can see. In this file, we have to modify depending on our deployment requirements. We will see all details in this article. 
+There is a total of 3 folders named *contracts*, *migrations*, and *test*. As you can guess, you have to write all our smart contracts inside the *contracts* folder, and deploying the contracts we have to keep inside the *migrations* folder serially, *we will see what I mean by serially soon*. For testing our contracts we can use the *test* folder. Also, there is a *truffle-config.json* file we can see. In this file, we have to modify depending on our deployment requirements. We will see all details in this article.
 
 ### Ganache 
 
